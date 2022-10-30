@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "totals": "tsnd ./src/webshop/index.ts",
     "test": "mocha './src/**/*.test.ts'",
     "lint": "eslint ./src"
   },
