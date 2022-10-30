@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "rocket": "tsnd ./src/rocket/index.ts",
     "totals": "tsnd ./src/webshop/index.ts",
     "test": "mocha './src/**/*.test.ts'",
     "lint": "eslint ./src"
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@types/chai": "^4.3.3",
     "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.7",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
     "chai": "^4.3.6",
