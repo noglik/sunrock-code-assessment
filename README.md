@@ -21,7 +21,7 @@ yarn run rocket [distance]
 
 Sequence for the traveled distance:
 | Second | Traveled distance |
-------------------------------
+|--------|-------------------|
 | 1      | 1                 |
 | 2      | 2                 |
 | 3      | 4                 |
